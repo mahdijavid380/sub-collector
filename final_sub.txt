@@ -112,7 +112,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/hk7cWPGY1Ssp?ed=2048"
+          "path": "/ZGRZS03UJslH?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -137,7 +137,7 @@
         "vnext": [
           {
             "address": "zr-wasm.mahdijavid3700.workers.dev",
-            "port": 8880,
+            "port": 2095,
             "users": [
               {
                 "encryption": "none",
@@ -154,7 +154,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/nnCkIlY128eG?ed=2560"
+          "path": "/xJVYUC8w1Hat?ed=2560"
         }
       },
       "tag": "proxy-2"
@@ -169,7 +169,7 @@
         "vnext": [
           {
             "address": "creativecommons.org",
-            "port": 2053,
+            "port": 2096,
             "users": [
               {
                 "encryption": "none",
@@ -186,7 +186,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/HOKWVw9Ugtuy?ed=2048"
+          "path": "/cvyhdWEIqDVk?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -211,7 +211,7 @@
         "vnext": [
           {
             "address": "creativecommons.org",
-            "port": 8880,
+            "port": 80,
             "users": [
               {
                 "encryption": "none",
@@ -228,7 +228,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/V8ajIftHUaIq?ed=2560"
+          "path": "/znnLOTi8R88q?ed=2560"
         }
       },
       "tag": "proxy-4"
@@ -243,7 +243,7 @@
         "vnext": [
           {
             "address": "www.speedtest.net",
-            "port": 8443,
+            "port": 2053,
             "users": [
               {
                 "encryption": "none",
@@ -260,7 +260,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/A0Kx1qFfQrzu?ed=2048"
+          "path": "/g0DzNEl1I9jb?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -285,7 +285,7 @@
         "vnext": [
           {
             "address": "www.speedtest.net",
-            "port": 8080,
+            "port": 8880,
             "users": [
               {
                 "encryption": "none",
@@ -302,7 +302,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/FJjarl6HyOlS?ed=2560"
+          "path": "/FaCQoTCiLGTT?ed=2560"
         }
       },
       "tag": "proxy-6"
@@ -317,7 +317,7 @@
         "vnext": [
           {
             "address": "sky.rethinkdns.com",
-            "port": 2053,
+            "port": 2087,
             "users": [
               {
                 "encryption": "none",
@@ -334,7 +334,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/h3gaQtAc96jM?ed=2048"
+          "path": "/RBXGFx6vM0IR?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -359,7 +359,7 @@
         "vnext": [
           {
             "address": "sky.rethinkdns.com",
-            "port": 2095,
+            "port": 2052,
             "users": [
               {
                 "encryption": "none",
@@ -376,7 +376,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/d96ZATjXlgXp?ed=2560"
+          "path": "/CSc7WRFEOL8F?ed=2560"
         }
       },
       "tag": "proxy-8"
@@ -391,7 +391,7 @@
         "vnext": [
           {
             "address": "chat.openai.com",
-            "port": 2083,
+            "port": 2096,
             "users": [
               {
                 "encryption": "none",
@@ -408,7 +408,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/OWONBcuwTfz8?ed=2048"
+          "path": "/yMByNw9K84rZ?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -433,7 +433,7 @@
         "vnext": [
           {
             "address": "chat.openai.com",
-            "port": 80,
+            "port": 2095,
             "users": [
               {
                 "encryption": "none",
@@ -450,7 +450,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/lKuSgejwG8f5?ed=2560"
+          "path": "/FJThjhcRvDD6?ed=2560"
         }
       },
       "tag": "proxy-10"
@@ -465,7 +465,7 @@
         "vnext": [
           {
             "address": "cfip.xxxxxxxx.tk",
-            "port": 443,
+            "port": 2087,
             "users": [
               {
                 "encryption": "none",
@@ -482,7 +482,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/sCTTzXPuRpzn?ed=2048"
+          "path": "/3vE19QQWaJVU?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -507,7 +507,7 @@
         "vnext": [
           {
             "address": "cfip.xxxxxxxx.tk",
-            "port": 2095,
+            "port": 8080,
             "users": [
               {
                 "encryption": "none",
@@ -524,7 +524,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/uIA6qrxLsHAp?ed=2560"
+          "path": "/JTvhHP6O3lin?ed=2560"
         }
       },
       "tag": "proxy-12"
@@ -539,7 +539,7 @@
         "vnext": [
           {
             "address": "go.inmobi.com",
-            "port": 2083,
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -556,7 +556,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/IJhfQKYcvaho?ed=2048"
+          "path": "/TWwmrsVypswY?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -581,7 +581,7 @@
         "vnext": [
           {
             "address": "go.inmobi.com",
-            "port": 2086,
+            "port": 2095,
             "users": [
               {
                 "encryption": "none",
@@ -598,7 +598,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/Lq1KMu5oiCVx?ed=2560"
+          "path": "/bUkbOn09kWTo?ed=2560"
         }
       },
       "tag": "proxy-14"
@@ -630,7 +630,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/SfDAhnh4DhTp?ed=2048"
+          "path": "/rTkzjh8UOaSM?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -655,7 +655,7 @@
         "vnext": [
           {
             "address": "singapore.com",
-            "port": 2082,
+            "port": 80,
             "users": [
               {
                 "encryption": "none",
@@ -672,7 +672,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/XmfyuLdOUGEy?ed=2560"
+          "path": "/tSA3eocQJpPp?ed=2560"
         }
       },
       "tag": "proxy-16"
@@ -704,7 +704,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/NCdhNhnIJNZ4?ed=2048"
+          "path": "/eeRsXQuuAQYM?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -729,7 +729,7 @@
         "vnext": [
           {
             "address": "www.visa.com",
-            "port": 8880,
+            "port": 2052,
             "users": [
               {
                 "encryption": "none",
@@ -746,7 +746,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/wnPUEDrnXbGb?ed=2560"
+          "path": "/mPBLT5rOph6l?ed=2560"
         }
       },
       "tag": "proxy-18"
@@ -761,7 +761,7 @@
         "vnext": [
           {
             "address": "www.wto.org",
-            "port": 8443,
+            "port": 2096,
             "users": [
               {
                 "encryption": "none",
@@ -778,7 +778,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/gHYmyQbz9uiY?ed=2048"
+          "path": "/TFTlZ0DSrhm4?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -803,7 +803,7 @@
         "vnext": [
           {
             "address": "www.wto.org",
-            "port": 2095,
+            "port": 8080,
             "users": [
               {
                 "encryption": "none",
@@ -820,7 +820,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/uCi7BDKg3Abe?ed=2560"
+          "path": "/W7eFRgpCW8az?ed=2560"
         }
       },
       "tag": "proxy-20"
@@ -835,7 +835,7 @@
         "vnext": [
           {
             "address": "chatgpt.com",
-            "port": 2083,
+            "port": 2053,
             "users": [
               {
                 "encryption": "none",
@@ -852,7 +852,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/VxovglgyaJq7?ed=2048"
+          "path": "/dTCTfmA2fE8h?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -877,7 +877,7 @@
         "vnext": [
           {
             "address": "chatgpt.com",
-            "port": 2095,
+            "port": 2052,
             "users": [
               {
                 "encryption": "none",
@@ -894,7 +894,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/ub2zhARmXVEg?ed=2560"
+          "path": "/5RN3HzV27Mkg?ed=2560"
         }
       },
       "tag": "proxy-22"
@@ -909,7 +909,7 @@
         "vnext": [
           {
             "address": "medium.com",
-            "port": 2087,
+            "port": 2083,
             "users": [
               {
                 "encryption": "none",
@@ -926,7 +926,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/DxQo5RbtndNX?ed=2048"
+          "path": "/Xy2CUHi1lyxX?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -951,7 +951,7 @@
         "vnext": [
           {
             "address": "medium.com",
-            "port": 2082,
+            "port": 8880,
             "users": [
               {
                 "encryption": "none",
@@ -968,7 +968,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/2dGl0ROAAU7w?ed=2560"
+          "path": "/BckJHU9MlGEd?ed=2560"
         }
       },
       "tag": "proxy-24"
@@ -983,7 +983,7 @@
         "vnext": [
           {
             "address": "npmjs.com",
-            "port": 2053,
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -1000,7 +1000,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/Tf3x4DwfruV6?ed=2048"
+          "path": "/zVoy5gSLKfgS?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -1025,7 +1025,7 @@
         "vnext": [
           {
             "address": "npmjs.com",
-            "port": 8880,
+            "port": 2082,
             "users": [
               {
                 "encryption": "none",
@@ -1042,7 +1042,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/lCLctviPATF4?ed=2560"
+          "path": "/6NQqIuXD3DD2?ed=2560"
         }
       },
       "tag": "proxy-26"
@@ -1074,7 +1074,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/54rtP2lIiK44?ed=2048"
+          "path": "/3DrWf3Rzzyqb?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -1099,7 +1099,7 @@
         "vnext": [
           {
             "address": "nodejs.org",
-            "port": 8080,
+            "port": 2052,
             "users": [
               {
                 "encryption": "none",
@@ -1116,7 +1116,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/WqR1AoUnObHK?ed=2560"
+          "path": "/QXtaK9UNeRfE?ed=2560"
         }
       },
       "tag": "proxy-28"
@@ -1131,7 +1131,7 @@
         "vnext": [
           {
             "address": "csgo.com",
-            "port": 2083,
+            "port": 2053,
             "users": [
               {
                 "encryption": "none",
@@ -1148,7 +1148,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/PUf3eOBcQn1e?ed=2048"
+          "path": "/bu68kKtizCK7?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -1190,7 +1190,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/jeu8nXGfGcuy?ed=2560"
+          "path": "/BTfq8hweCfnj?ed=2560"
         }
       },
       "tag": "proxy-30"
@@ -1205,7 +1205,7 @@
         "vnext": [
           {
             "address": "harbor.io",
-            "port": 2053,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -1222,7 +1222,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/heHFkUOP9LLm?ed=2048"
+          "path": "/XP7GlxtM2iEd?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -1247,7 +1247,7 @@
         "vnext": [
           {
             "address": "harbor.io",
-            "port": 2086,
+            "port": 2052,
             "users": [
               {
                 "encryption": "none",
@@ -1264,7 +1264,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/keneyZdnD1oY?ed=2560"
+          "path": "/F2KCMTfcRL0O?ed=2560"
         }
       },
       "tag": "proxy-32"
@@ -1279,7 +1279,7 @@
         "vnext": [
           {
             "address": "linkerd.io",
-            "port": 2096,
+            "port": 2053,
             "users": [
               {
                 "encryption": "none",
@@ -1296,7 +1296,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/rx3XQgJAln7v?ed=2048"
+          "path": "/qXnDam3h9Q1C?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -1321,7 +1321,7 @@
         "vnext": [
           {
             "address": "linkerd.io",
-            "port": 2086,
+            "port": 2095,
             "users": [
               {
                 "encryption": "none",
@@ -1338,7 +1338,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/T85yam12etRY?ed=2560"
+          "path": "/AQDdqQMRgkSv?ed=2560"
         }
       },
       "tag": "proxy-34"
@@ -1370,7 +1370,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/UMxMtFqx1Ovg?ed=2048"
+          "path": "/V0YhBN8KHEvE?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -1412,7 +1412,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/0rNVxsm4HCsL?ed=2560"
+          "path": "/OnMyjElXmgLH?ed=2560"
         }
       },
       "tag": "proxy-36"
@@ -1427,7 +1427,7 @@
         "vnext": [
           {
             "address": "zula.ir",
-            "port": 2096,
+            "port": 2087,
             "users": [
               {
                 "encryption": "none",
@@ -1444,7 +1444,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/WFxc1u7fQDUh?ed=2048"
+          "path": "/KwuEdTGxFQKL?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -1469,7 +1469,7 @@
         "vnext": [
           {
             "address": "zula.ir",
-            "port": 2086,
+            "port": 8080,
             "users": [
               {
                 "encryption": "none",
@@ -1486,7 +1486,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/uipLzl8WNGPt?ed=2560"
+          "path": "/fDyX5SZlcmTW?ed=2560"
         }
       },
       "tag": "proxy-38"
@@ -1500,8 +1500,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "190.93.247.35",
-            "port": 8443,
+            "address": "172.67.69.67",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -1518,7 +1518,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/03gka4aV0yoj?ed=2048"
+          "path": "/4INJO2HVory4?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -1542,8 +1542,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "190.93.247.35",
-            "port": 8080,
+            "address": "172.67.69.67",
+            "port": 8880,
             "users": [
               {
                 "encryption": "none",
@@ -1560,7 +1560,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/9P5izLbOG3KJ?ed=2560"
+          "path": "/TiIsFqH3GMkI?ed=2560"
         }
       },
       "tag": "proxy-40"
@@ -1574,8 +1574,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "190.93.245.90",
-            "port": 443,
+            "address": "104.16.140.89",
+            "port": 2083,
             "users": [
               {
                 "encryption": "none",
@@ -1592,7 +1592,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/YmjhIJ2ljrUT?ed=2048"
+          "path": "/NBErzBpEDAkl?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -1616,8 +1616,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "190.93.245.90",
-            "port": 2082,
+            "address": "104.16.140.89",
+            "port": 8080,
             "users": [
               {
                 "encryption": "none",
@@ -1634,7 +1634,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/R2KHnfuWNMoz?ed=2560"
+          "path": "/g15EB32ncE1X?ed=2560"
         }
       },
       "tag": "proxy-42"
@@ -1648,8 +1648,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.27.196.55",
-            "port": 2087,
+            "address": "104.26.4.213",
+            "port": 2053,
             "users": [
               {
                 "encryption": "none",
@@ -1666,7 +1666,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/NcLt1xTpEidG?ed=2048"
+          "path": "/z56ZHCNBDuyD?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -1690,8 +1690,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.27.196.55",
-            "port": 2095,
+            "address": "104.26.4.213",
+            "port": 8880,
             "users": [
               {
                 "encryption": "none",
@@ -1708,7 +1708,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/puFLAVq9r6VR?ed=2560"
+          "path": "/OL1WYQ63CjKo?ed=2560"
         }
       },
       "tag": "proxy-44"
@@ -1722,7 +1722,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "141.101.115.71",
+            "address": "8.6.112.185",
             "port": 2087,
             "users": [
               {
@@ -1740,7 +1740,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/fujkvukI46uh?ed=2048"
+          "path": "/soqEfddy7KRY?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -1764,7 +1764,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "141.101.115.71",
+            "address": "8.6.112.185",
             "port": 8080,
             "users": [
               {
@@ -1782,7 +1782,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/0TDWI2f62h6y?ed=2560"
+          "path": "/zTacrvwWAucL?ed=2560"
         }
       },
       "tag": "proxy-46"
@@ -1796,8 +1796,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.148.5",
-            "port": 2053,
+            "address": "188.114.98.155",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -1814,7 +1814,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/W0EvZBligN2D?ed=2048"
+          "path": "/i0N29F1x8JwD?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -1838,8 +1838,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.148.5",
-            "port": 2082,
+            "address": "188.114.98.155",
+            "port": 8080,
             "users": [
               {
                 "encryption": "none",
@@ -1856,7 +1856,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/5f7Kiqc7I4Ae?ed=2560"
+          "path": "/7HZh59PEy8VH?ed=2560"
         }
       },
       "tag": "proxy-48"
@@ -1870,7 +1870,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.14",
+            "address": "162.159.193.108",
             "port": 2083,
             "users": [
               {
@@ -1888,7 +1888,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/my2TR3gdENO4?ed=2048"
+          "path": "/nAiEZYDV2Ilk?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -1912,8 +1912,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.14",
-            "port": 8880,
+            "address": "162.159.193.108",
+            "port": 2095,
             "users": [
               {
                 "encryption": "none",
@@ -1930,7 +1930,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/WcRjrk6btKcn?ed=2560"
+          "path": "/9hycPaTweiFq?ed=2560"
         }
       },
       "tag": "proxy-50"
@@ -1944,8 +1944,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.158.12",
-            "port": 2083,
+            "address": "141.101.115.183",
+            "port": 2096,
             "users": [
               {
                 "encryption": "none",
@@ -1962,7 +1962,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/M8Qkx7dYCRP4?ed=2048"
+          "path": "/QssCYgv5Q64Q?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -1986,8 +1986,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.158.12",
-            "port": 8880,
+            "address": "141.101.115.183",
+            "port": 2086,
             "users": [
               {
                 "encryption": "none",
@@ -2004,7 +2004,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/V4T3r0OP6o9D?ed=2560"
+          "path": "/nqd3w9iW7Fa1?ed=2560"
         }
       },
       "tag": "proxy-52"
@@ -2018,8 +2018,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.111",
-            "port": 8443,
+            "address": "190.93.247.166",
+            "port": 2083,
             "users": [
               {
                 "encryption": "none",
@@ -2036,7 +2036,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/KV1yDEc5vHfE?ed=2048"
+          "path": "/DeJJ3NFTzBf9?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -2060,7 +2060,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.111",
+            "address": "190.93.247.166",
             "port": 80,
             "users": [
               {
@@ -2078,7 +2078,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/s36XB92PfbZL?ed=2560"
+          "path": "/vn03mcc2ch34?ed=2560"
         }
       },
       "tag": "proxy-54"
@@ -2092,8 +2092,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.0.240",
-            "port": 8443,
+            "address": "162.159.195.71",
+            "port": 2087,
             "users": [
               {
                 "encryption": "none",
@@ -2110,7 +2110,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/cK7gmhg7cub3?ed=2048"
+          "path": "/eJn4H7yeHMzB?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -2134,8 +2134,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.0.240",
-            "port": 8080,
+            "address": "162.159.195.71",
+            "port": 80,
             "users": [
               {
                 "encryption": "none",
@@ -2152,7 +2152,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/oeAki4lZtu5E?ed=2560"
+          "path": "/TbOsQE6r7tFQ?ed=2560"
         }
       },
       "tag": "proxy-56"
@@ -2166,8 +2166,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.6.44",
-            "port": 8443,
+            "address": "104.18.79.167",
+            "port": 2087,
             "users": [
               {
                 "encryption": "none",
@@ -2184,7 +2184,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/Q0xKLPreR6g1?ed=2048"
+          "path": "/E753XyOCblyu?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -2208,8 +2208,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.6.44",
-            "port": 8880,
+            "address": "104.18.79.167",
+            "port": 2052,
             "users": [
               {
                 "encryption": "none",
@@ -2226,7 +2226,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/zjJgGfAJHFx7?ed=2560"
+          "path": "/jBaKVjQBpCv9?ed=2560"
         }
       },
       "tag": "proxy-58"
@@ -2240,8 +2240,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.19.220.161",
-            "port": 2053,
+            "address": "188.114.96.228",
+            "port": 2096,
             "users": [
               {
                 "encryption": "none",
@@ -2258,7 +2258,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/SK3so25znB0m?ed=2048"
+          "path": "/hgxwZWhm0tub?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -2282,8 +2282,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.19.220.161",
-            "port": 2095,
+            "address": "188.114.96.228",
+            "port": 2082,
             "users": [
               {
                 "encryption": "none",
@@ -2300,7 +2300,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/vMYzTqBsfk88?ed=2560"
+          "path": "/fg7E3keKQ5gl?ed=2560"
         }
       },
       "tag": "proxy-60"
@@ -2314,8 +2314,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.140.222",
-            "port": 2053,
+            "address": "172.67.158.252",
+            "port": 2083,
             "users": [
               {
                 "encryption": "none",
@@ -2332,7 +2332,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/4WHO62HcVFS2?ed=2048"
+          "path": "/qN9myBaYIZAb?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -2356,8 +2356,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.140.222",
-            "port": 80,
+            "address": "172.67.158.252",
+            "port": 2052,
             "users": [
               {
                 "encryption": "none",
@@ -2374,7 +2374,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/vw845xWaCUDh?ed=2560"
+          "path": "/LFZzamGHPMxk?ed=2560"
         }
       },
       "tag": "proxy-62"
@@ -2388,8 +2388,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.158.103",
-            "port": 2096,
+            "address": "188.114.99.239",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -2406,7 +2406,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/K4e0kX9wwoRT?ed=2048"
+          "path": "/6ikLAcIOOuPu?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -2430,8 +2430,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.158.103",
-            "port": 2082,
+            "address": "188.114.99.239",
+            "port": 2086,
             "users": [
               {
                 "encryption": "none",
@@ -2448,7 +2448,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/Njg0ydKw1B0x?ed=2560"
+          "path": "/cKjYWmfYUjNE?ed=2560"
         }
       },
       "tag": "proxy-64"
@@ -2462,8 +2462,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.148.146",
-            "port": 8443,
+            "address": "188.114.98.23",
+            "port": 2053,
             "users": [
               {
                 "encryption": "none",
@@ -2480,7 +2480,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/y7Qfh5GuAmuk?ed=2048"
+          "path": "/vP0xXTv55X8h?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -2504,8 +2504,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.148.146",
-            "port": 2082,
+            "address": "188.114.98.23",
+            "port": 2052,
             "users": [
               {
                 "encryption": "none",
@@ -2522,7 +2522,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/NkPUcKGW3x11?ed=2560"
+          "path": "/7mqEycR3vHTX?ed=2560"
         }
       },
       "tag": "proxy-66"
@@ -2536,8 +2536,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "141.101.115.3",
-            "port": 2053,
+            "address": "104.16.148.184",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -2554,7 +2554,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/zoxOfaW3fVV1?ed=2048"
+          "path": "/Yfpj7P8g8bab?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -2578,8 +2578,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "141.101.115.3",
-            "port": 2082,
+            "address": "104.16.148.184",
+            "port": 2086,
             "users": [
               {
                 "encryption": "none",
@@ -2596,7 +2596,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/nEYR0tfJKeuG?ed=2560"
+          "path": "/p8Ff3miChsjb?ed=2560"
         }
       },
       "tag": "proxy-68"
@@ -2610,8 +2610,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.121.170",
-            "port": 443,
+            "address": "190.93.247.193",
+            "port": 2087,
             "users": [
               {
                 "encryption": "none",
@@ -2628,7 +2628,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/qMYQmB3VkSEG?ed=2048"
+          "path": "/nKXVFWwj6L5a?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -2652,8 +2652,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.121.170",
-            "port": 2095,
+            "address": "190.93.247.193",
+            "port": 2052,
             "users": [
               {
                 "encryption": "none",
@@ -2670,7 +2670,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/PfyKuKuDW5f5?ed=2560"
+          "path": "/U7zMASgcIbWn?ed=2560"
         }
       },
       "tag": "proxy-70"
@@ -2684,8 +2684,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "190.93.247.198",
-            "port": 2087,
+            "address": "188.114.98.184",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -2702,7 +2702,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/md6GVPzN965r?ed=2048"
+          "path": "/JGHqgZkqjKmu?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -2726,8 +2726,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "190.93.247.198",
-            "port": 8080,
+            "address": "188.114.98.184",
+            "port": 2082,
             "users": [
               {
                 "encryption": "none",
@@ -2744,7 +2744,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/NxdPRcGvCzdI?ed=2560"
+          "path": "/iDyoVFY8liZE?ed=2560"
         }
       },
       "tag": "proxy-72"
@@ -2758,8 +2758,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.193.225",
-            "port": 2087,
+            "address": "188.114.97.244",
+            "port": 2053,
             "users": [
               {
                 "encryption": "none",
@@ -2776,7 +2776,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/72rF6uB5LXli?ed=2048"
+          "path": "/4828E7WnJMiM?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -2800,8 +2800,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.193.225",
-            "port": 2082,
+            "address": "188.114.97.244",
+            "port": 2052,
             "users": [
               {
                 "encryption": "none",
@@ -2818,7 +2818,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/2DNHy318vKnG?ed=2560"
+          "path": "/iMxHilWZgKVB?ed=2560"
         }
       },
       "tag": "proxy-74"
@@ -2832,8 +2832,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.99.88",
-            "port": 2087,
+            "address": "162.159.243.134",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -2850,7 +2850,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/zrVpUFY2utig?ed=2048"
+          "path": "/AE4yFxhxM2rS?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -2874,8 +2874,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.99.88",
-            "port": 2086,
+            "address": "162.159.243.134",
+            "port": 80,
             "users": [
               {
                 "encryption": "none",
@@ -2892,7 +2892,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/8H8Ft1kPkxfZ?ed=2560"
+          "path": "/NsvVEVc10fCu?ed=2560"
         }
       },
       "tag": "proxy-76"
@@ -2906,8 +2906,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.146.139",
-            "port": 2053,
+            "address": "190.93.245.4",
+            "port": 2087,
             "users": [
               {
                 "encryption": "none",
@@ -2924,7 +2924,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/QLsed0qf1jvy?ed=2048"
+          "path": "/u2UM6Ck6A4mX?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -2948,8 +2948,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.146.139",
-            "port": 80,
+            "address": "190.93.245.4",
+            "port": 8880,
             "users": [
               {
                 "encryption": "none",
@@ -2966,7 +2966,7 @@
           "headers": {
             "Host": "zr-wasm.mahdijavid3700.workers.dev"
           },
-          "path": "/prZbXGXG1ZY8?ed=2560"
+          "path": "/ZKHM0Fzqy178?ed=2560"
         }
       },
       "tag": "proxy-78"
@@ -2981,7 +2981,7 @@
         "vnext": [
           {
             "address": "zizifnjavid.mahdijavid370.workers.dev",
-            "port": 2087,
+            "port": 2096,
             "users": [
               {
                 "encryption": "none",
@@ -2998,7 +2998,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/u9Wz6a7mDaki?ed=2048"
+          "path": "/9k2iElx3utkt?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -3023,7 +3023,7 @@
         "vnext": [
           {
             "address": "creativecommons.org",
-            "port": 2087,
+            "port": 2083,
             "users": [
               {
                 "encryption": "none",
@@ -3040,7 +3040,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/d4drPa0G3dlD?ed=2048"
+          "path": "/nooBPeu3J70R?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -3065,7 +3065,7 @@
         "vnext": [
           {
             "address": "sky.rethinkdns.com",
-            "port": 8443,
+            "port": 2083,
             "users": [
               {
                 "encryption": "none",
@@ -3082,7 +3082,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/H5Y2V3uhX9ar?ed=2048"
+          "path": "/scR8zCuZeNq9?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -3107,7 +3107,7 @@
         "vnext": [
           {
             "address": "www.speedtest.net",
-            "port": 2053,
+            "port": 2087,
             "users": [
               {
                 "encryption": "none",
@@ -3124,7 +3124,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/8vJ0oSPK5Z9W?ed=2048"
+          "path": "/amEHB2pPot20?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -3149,7 +3149,7 @@
         "vnext": [
           {
             "address": "singapore.com",
-            "port": 443,
+            "port": 2053,
             "users": [
               {
                 "encryption": "none",
@@ -3166,7 +3166,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/LpKrtJ51JmD9?ed=2048"
+          "path": "/1lMRK13VR4Bh?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -3191,7 +3191,7 @@
         "vnext": [
           {
             "address": "go.inmobi.com",
-            "port": 2083,
+            "port": 2087,
             "users": [
               {
                 "encryption": "none",
@@ -3208,7 +3208,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/m7DvDCwzNhBP?ed=2048"
+          "path": "/Rw8oOrORZGLQ?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -3233,7 +3233,7 @@
         "vnext": [
           {
             "address": "www.visa.com",
-            "port": 443,
+            "port": 2053,
             "users": [
               {
                 "encryption": "none",
@@ -3250,7 +3250,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/z0OFG7n0yLlU?ed=2048"
+          "path": "/ml2PMw7P3P5u?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -3275,7 +3275,7 @@
         "vnext": [
           {
             "address": "www.wto.org",
-            "port": 8443,
+            "port": 2096,
             "users": [
               {
                 "encryption": "none",
@@ -3292,7 +3292,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/JqrXXQ0gl6uh?ed=2048"
+          "path": "/0Bkfm4PMzYe8?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -3317,7 +3317,7 @@
         "vnext": [
           {
             "address": "chatgpt.com",
-            "port": 2096,
+            "port": 2087,
             "users": [
               {
                 "encryption": "none",
@@ -3334,7 +3334,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/AcEPrSZLmZFp?ed=2048"
+          "path": "/kQc0c4VtAMgy?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -3359,7 +3359,7 @@
         "vnext": [
           {
             "address": "medium.com",
-            "port": 2083,
+            "port": 2053,
             "users": [
               {
                 "encryption": "none",
@@ -3376,7 +3376,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/EwiOQO3q2kA9?ed=2048"
+          "path": "/N8NUyrgSKFje?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -3401,7 +3401,7 @@
         "vnext": [
           {
             "address": "lb.nscl.ir",
-            "port": 2083,
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -3418,7 +3418,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/8N2mjpk1v8wW?ed=2048"
+          "path": "/WNvgk9oZ8K6t?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -3443,7 +3443,7 @@
         "vnext": [
           {
             "address": "nodejs.org",
-            "port": 443,
+            "port": 2087,
             "users": [
               {
                 "encryption": "none",
@@ -3460,7 +3460,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/NDSPyJlt0KAD?ed=2048"
+          "path": "/YIEjm0QPanYU?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -3485,7 +3485,7 @@
         "vnext": [
           {
             "address": "linkerd.io",
-            "port": 2083,
+            "port": 2087,
             "users": [
               {
                 "encryption": "none",
@@ -3502,7 +3502,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/Kjqt9PUtHhzC?ed=2048"
+          "path": "/SNJXw1mmq6lb?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -3527,7 +3527,7 @@
         "vnext": [
           {
             "address": "harbor.io",
-            "port": 2087,
+            "port": 2083,
             "users": [
               {
                 "encryption": "none",
@@ -3544,7 +3544,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/mIEjqmqRla7B?ed=2048"
+          "path": "/cRWr4R1pG0XT?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -3569,7 +3569,7 @@
         "vnext": [
           {
             "address": "npmjs.com",
-            "port": 443,
+            "port": 2096,
             "users": [
               {
                 "encryption": "none",
@@ -3586,7 +3586,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/fT78ytQlOrJI?ed=2048"
+          "path": "/wteNklXAdrqT?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -3611,7 +3611,7 @@
         "vnext": [
           {
             "address": "csgo.com",
-            "port": 2096,
+            "port": 2087,
             "users": [
               {
                 "encryption": "none",
@@ -3628,7 +3628,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/GDdjf5EXEkr1?ed=2048"
+          "path": "/QFFRemdfejNw?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -3653,7 +3653,7 @@
         "vnext": [
           {
             "address": "fbi.gov",
-            "port": 2096,
+            "port": 2053,
             "users": [
               {
                 "encryption": "none",
@@ -3670,7 +3670,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/NU2Kjss7Jkad?ed=2048"
+          "path": "/Td7pnVZ7guMa?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -3695,7 +3695,7 @@
         "vnext": [
           {
             "address": "ip.sb",
-            "port": 2083,
+            "port": 2053,
             "users": [
               {
                 "encryption": "none",
@@ -3712,7 +3712,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/JCM1mX4QaRjY?ed=2048"
+          "path": "/3aomFMRfJ4vf?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -3754,7 +3754,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/doL23hPf1NRJ?ed=2048"
+          "path": "/xGmJiN46YJCn?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -3779,7 +3779,7 @@
         "vnext": [
           {
             "address": "icook.hk",
-            "port": 8443,
+            "port": 2096,
             "users": [
               {
                 "encryption": "none",
@@ -3796,7 +3796,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/FFssalXsIQEw?ed=2048"
+          "path": "/P6KMFAoGV8hh?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -3821,7 +3821,7 @@
         "vnext": [
           {
             "address": "codepen.io",
-            "port": 443,
+            "port": 2096,
             "users": [
               {
                 "encryption": "none",
@@ -3838,7 +3838,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/iKay4KOFmxmg?ed=2048"
+          "path": "/lQ8ormDIwH4A?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -3863,7 +3863,7 @@
         "vnext": [
           {
             "address": "unpkg.com",
-            "port": 2087,
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -3880,7 +3880,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/DC2g8L9PhhYR?ed=2048"
+          "path": "/SfpLOeztyMUh?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -3905,7 +3905,7 @@
         "vnext": [
           {
             "address": "jsdelivr.com",
-            "port": 8443,
+            "port": 2087,
             "users": [
               {
                 "encryption": "none",
@@ -3922,7 +3922,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/nN3nrGPTSmGa?ed=2048"
+          "path": "/L7yE4BCKltX6?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -3947,7 +3947,7 @@
         "vnext": [
           {
             "address": "chatgpt.com",
-            "port": 8443,
+            "port": 2053,
             "users": [
               {
                 "encryption": "none",
@@ -3964,7 +3964,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/O39MenumEk17?ed=2048"
+          "path": "/ZornAxOPBrTe?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -3989,7 +3989,7 @@
         "vnext": [
           {
             "address": "www.cdnjs.com",
-            "port": 2053,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -4006,7 +4006,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/nVHYJrMTEApV?ed=2048"
+          "path": "/2xPNmNfrWFm2?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -4031,7 +4031,7 @@
         "vnext": [
           {
             "address": "auth.vercel.com",
-            "port": 8443,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -4048,7 +4048,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/Ca3rZoBgHfCy?ed=2048"
+          "path": "/j2CweqCp3mp9?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -4073,7 +4073,7 @@
         "vnext": [
           {
             "address": "www.udacity.com",
-            "port": 443,
+            "port": 2053,
             "users": [
               {
                 "encryption": "none",
@@ -4090,7 +4090,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/EDq5vZE3WHqB?ed=2048"
+          "path": "/3Xi31S6UZ3hj?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -4115,7 +4115,7 @@
         "vnext": [
           {
             "address": "www.gitbook.com",
-            "port": 8443,
+            "port": 2053,
             "users": [
               {
                 "encryption": "none",
@@ -4132,7 +4132,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/bEIWr8EGpS7s?ed=2048"
+          "path": "/2wkHjtDssULF?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -4157,7 +4157,7 @@
         "vnext": [
           {
             "address": "www.ipaddress.my",
-            "port": 2053,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -4174,7 +4174,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/TD0coch6EKth?ed=2048"
+          "path": "/JmdMR5CgK4MS?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -4199,7 +4199,7 @@
         "vnext": [
           {
             "address": "www.glassdoor.com",
-            "port": 2053,
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -4216,7 +4216,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/3MKaccLeKoJB?ed=2048"
+          "path": "/E01oIxUJzPRN?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -4241,7 +4241,7 @@
         "vnext": [
           {
             "address": "www.ipchicken.com",
-            "port": 2096,
+            "port": 2083,
             "users": [
               {
                 "encryption": "none",
@@ -4258,7 +4258,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/VYMsjyy6dWiU?ed=2048"
+          "path": "/uP4msS294Yzx?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -4300,7 +4300,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/vVw1sumZfcWq?ed=2048"
+          "path": "/BdZZ610obl6h?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -4325,7 +4325,7 @@
         "vnext": [
           {
             "address": "172.67.69.67",
-            "port": 443,
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -4342,7 +4342,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/m09JZ0eQ9SLs?ed=2048"
+          "path": "/hLaQugb4m6km?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -4367,7 +4367,7 @@
         "vnext": [
           {
             "address": "104.16.140.89",
-            "port": 443,
+            "port": 2083,
             "users": [
               {
                 "encryption": "none",
@@ -4384,7 +4384,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/lc96szvMMbSN?ed=2048"
+          "path": "/oPCFcgfIgRU4?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -4409,7 +4409,7 @@
         "vnext": [
           {
             "address": "104.26.4.213",
-            "port": 2096,
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -4426,7 +4426,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/UD83ybTHSSfS?ed=2048"
+          "path": "/mVutamARDeWX?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -4451,7 +4451,7 @@
         "vnext": [
           {
             "address": "8.6.112.185",
-            "port": 2096,
+            "port": 2083,
             "users": [
               {
                 "encryption": "none",
@@ -4468,7 +4468,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/eilpqCOUI6jN?ed=2048"
+          "path": "/GolLS3lPptLQ?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -4493,7 +4493,7 @@
         "vnext": [
           {
             "address": "188.114.98.155",
-            "port": 2083,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -4510,7 +4510,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/hyUcCxoYDpEX?ed=2048"
+          "path": "/wxyPcsJ45VH4?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -4535,7 +4535,7 @@
         "vnext": [
           {
             "address": "162.159.193.108",
-            "port": 2087,
+            "port": 2096,
             "users": [
               {
                 "encryption": "none",
@@ -4552,7 +4552,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/JsNDX5YWA75a?ed=2048"
+          "path": "/TQWsKCKcQc4X?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -4577,7 +4577,7 @@
         "vnext": [
           {
             "address": "141.101.115.183",
-            "port": 443,
+            "port": 2053,
             "users": [
               {
                 "encryption": "none",
@@ -4594,7 +4594,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/t9cWaEuj8NPc?ed=2048"
+          "path": "/dtyoVwFza7gQ?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -4619,7 +4619,7 @@
         "vnext": [
           {
             "address": "190.93.247.166",
-            "port": 2053,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -4636,7 +4636,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/6pqOwYMzjycH?ed=2048"
+          "path": "/9c8ecfwvzMtr?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -4661,7 +4661,7 @@
         "vnext": [
           {
             "address": "162.159.195.71",
-            "port": 2096,
+            "port": 2087,
             "users": [
               {
                 "encryption": "none",
@@ -4678,7 +4678,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/rhMl2KTs5cno?ed=2048"
+          "path": "/GsR7MCIsaqVk?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -4703,7 +4703,7 @@
         "vnext": [
           {
             "address": "104.18.79.167",
-            "port": 2087,
+            "port": 2083,
             "users": [
               {
                 "encryption": "none",
@@ -4720,7 +4720,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/RtOUonGwizmE?ed=2048"
+          "path": "/2W5qZIDeGVu6?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -4762,7 +4762,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/YM1ZmDkyYfeB?ed=2048"
+          "path": "/uuOrODGbNfBS?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -4787,7 +4787,7 @@
         "vnext": [
           {
             "address": "172.67.158.252",
-            "port": 443,
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -4804,7 +4804,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/nMbQs4kml4Mf?ed=2048"
+          "path": "/jeHKLbmmckir?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -4829,7 +4829,7 @@
         "vnext": [
           {
             "address": "188.114.99.239",
-            "port": 8443,
+            "port": 2053,
             "users": [
               {
                 "encryption": "none",
@@ -4846,7 +4846,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/ug3ddoHcWc8X?ed=2048"
+          "path": "/Tj4NS1mLwNSG?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -4871,7 +4871,7 @@
         "vnext": [
           {
             "address": "188.114.98.23",
-            "port": 8443,
+            "port": 2096,
             "users": [
               {
                 "encryption": "none",
@@ -4888,7 +4888,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/ZdgK7QuSBpco?ed=2048"
+          "path": "/3Y6K02HCp9ln?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -4913,7 +4913,7 @@
         "vnext": [
           {
             "address": "104.16.148.184",
-            "port": 2096,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -4930,7 +4930,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/rNllgOyY1Sar?ed=2048"
+          "path": "/gzkcl1nPL1lN?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -4972,7 +4972,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/7nuuEmXHz59C?ed=2048"
+          "path": "/Lo6boDEs2NYP?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -4997,7 +4997,7 @@
         "vnext": [
           {
             "address": "188.114.98.184",
-            "port": 443,
+            "port": 2053,
             "users": [
               {
                 "encryption": "none",
@@ -5014,7 +5014,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/AEa8Pm69MYeo?ed=2048"
+          "path": "/8R0aMi0SJULd?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -5056,7 +5056,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/cHlowBOFPmFM?ed=2048"
+          "path": "/Bayam752rTxF?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -5081,7 +5081,7 @@
         "vnext": [
           {
             "address": "162.159.243.134",
-            "port": 2053,
+            "port": 2087,
             "users": [
               {
                 "encryption": "none",
@@ -5098,7 +5098,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/yr0tIif4Jio2?ed=2048"
+          "path": "/OCCoU0qveYa3?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -5140,7 +5140,7 @@
           "headers": {
             "Host": "zizifnjavid.mahdijavid370.workers.dev"
           },
-          "path": "/UsPSpw4ujZdA?ed=2048"
+          "path": "/g9hDCxmZTqe6?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -5182,7 +5182,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/QiZhuOVTzLKa?ed=2048"
+          "path": "/Mqw0611QyAIq?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -5207,7 +5207,7 @@
         "vnext": [
           {
             "address": "zr-wasm.mah123-efc.workers.dev",
-            "port": 8080,
+            "port": 8880,
             "users": [
               {
                 "encryption": "none",
@@ -5224,7 +5224,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/RKJUaS5sVvsR?ed=2560"
+          "path": "/oUOEXCb5wNv3?ed=2560"
         }
       },
       "tag": "proxy-132"
@@ -5239,7 +5239,7 @@
         "vnext": [
           {
             "address": "creativecommons.org",
-            "port": 2083,
+            "port": 2087,
             "users": [
               {
                 "encryption": "none",
@@ -5256,7 +5256,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/fglx3mZ1N4ro?ed=2048"
+          "path": "/ChAnuq0v2W34?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -5281,7 +5281,7 @@
         "vnext": [
           {
             "address": "creativecommons.org",
-            "port": 2052,
+            "port": 8080,
             "users": [
               {
                 "encryption": "none",
@@ -5298,7 +5298,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/9yJPlLMXu8gp?ed=2560"
+          "path": "/5LHMfkCFfs4h?ed=2560"
         }
       },
       "tag": "proxy-134"
@@ -5313,7 +5313,7 @@
         "vnext": [
           {
             "address": "www.speedtest.net",
-            "port": 8443,
+            "port": 2053,
             "users": [
               {
                 "encryption": "none",
@@ -5330,7 +5330,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/zpbwdIZR3Tad?ed=2048"
+          "path": "/05b1kPhkYtsz?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -5355,7 +5355,7 @@
         "vnext": [
           {
             "address": "www.speedtest.net",
-            "port": 8080,
+            "port": 2095,
             "users": [
               {
                 "encryption": "none",
@@ -5372,7 +5372,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/96az12ywYwGA?ed=2560"
+          "path": "/xmRuRsEoFIwU?ed=2560"
         }
       },
       "tag": "proxy-136"
@@ -5387,7 +5387,7 @@
         "vnext": [
           {
             "address": "sky.rethinkdns.com",
-            "port": 8443,
+            "port": 2096,
             "users": [
               {
                 "encryption": "none",
@@ -5404,7 +5404,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/KyFRKxnO22Gd?ed=2048"
+          "path": "/JLgF1COhNVze?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -5446,7 +5446,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/5K2h9S6wXWKs?ed=2560"
+          "path": "/Asd3gl4ufjWu?ed=2560"
         }
       },
       "tag": "proxy-138"
@@ -5478,7 +5478,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/HRkrofasAgOG?ed=2048"
+          "path": "/ACgBobLAzmrL?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -5503,7 +5503,7 @@
         "vnext": [
           {
             "address": "chat.openai.com",
-            "port": 80,
+            "port": 2082,
             "users": [
               {
                 "encryption": "none",
@@ -5520,7 +5520,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/QnMV1p4RgAgT?ed=2560"
+          "path": "/vDnZtlbrNjYW?ed=2560"
         }
       },
       "tag": "proxy-140"
@@ -5535,7 +5535,7 @@
         "vnext": [
           {
             "address": "cfip.xxxxxxxx.tk",
-            "port": 443,
+            "port": 2083,
             "users": [
               {
                 "encryption": "none",
@@ -5552,7 +5552,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/XYnaKYKXEqbK?ed=2048"
+          "path": "/lLVirHh0QWGE?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -5577,7 +5577,7 @@
         "vnext": [
           {
             "address": "cfip.xxxxxxxx.tk",
-            "port": 2095,
+            "port": 8880,
             "users": [
               {
                 "encryption": "none",
@@ -5594,7 +5594,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/E7TOd5QNlMnz?ed=2560"
+          "path": "/3CNEZuAg4aVg?ed=2560"
         }
       },
       "tag": "proxy-142"
@@ -5609,7 +5609,7 @@
         "vnext": [
           {
             "address": "go.inmobi.com",
-            "port": 2087,
+            "port": 2083,
             "users": [
               {
                 "encryption": "none",
@@ -5626,7 +5626,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/uH8pIUaJ9xvB?ed=2048"
+          "path": "/UMegqnBllS66?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -5651,7 +5651,7 @@
         "vnext": [
           {
             "address": "go.inmobi.com",
-            "port": 2095,
+            "port": 8080,
             "users": [
               {
                 "encryption": "none",
@@ -5668,7 +5668,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/wCWZ4vLA90Vt?ed=2560"
+          "path": "/nlw8NuZCgRGH?ed=2560"
         }
       },
       "tag": "proxy-144"
@@ -5683,7 +5683,7 @@
         "vnext": [
           {
             "address": "singapore.com",
-            "port": 8443,
+            "port": 2096,
             "users": [
               {
                 "encryption": "none",
@@ -5700,7 +5700,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/S2tDO4ejGyqu?ed=2048"
+          "path": "/CgybLJNFYNJs?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -5725,7 +5725,7 @@
         "vnext": [
           {
             "address": "singapore.com",
-            "port": 2095,
+            "port": 8080,
             "users": [
               {
                 "encryption": "none",
@@ -5742,7 +5742,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/CzfE3caN5bt5?ed=2560"
+          "path": "/qsmPF1kH9Riz?ed=2560"
         }
       },
       "tag": "proxy-146"
@@ -5757,7 +5757,7 @@
         "vnext": [
           {
             "address": "www.visa.com",
-            "port": 2053,
+            "port": 2087,
             "users": [
               {
                 "encryption": "none",
@@ -5774,7 +5774,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/PxZAMHf8YGlU?ed=2048"
+          "path": "/JBH21yMdNkpF?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -5799,7 +5799,7 @@
         "vnext": [
           {
             "address": "www.visa.com",
-            "port": 2082,
+            "port": 2086,
             "users": [
               {
                 "encryption": "none",
@@ -5816,7 +5816,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/rewTUAJvRdbg?ed=2560"
+          "path": "/MJwpwerkFI5v?ed=2560"
         }
       },
       "tag": "proxy-148"
@@ -5831,7 +5831,7 @@
         "vnext": [
           {
             "address": "www.wto.org",
-            "port": 443,
+            "port": 2087,
             "users": [
               {
                 "encryption": "none",
@@ -5848,7 +5848,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/xJrpPEA9Jfif?ed=2048"
+          "path": "/zkGwvyHa1L3y?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -5873,7 +5873,7 @@
         "vnext": [
           {
             "address": "www.wto.org",
-            "port": 2086,
+            "port": 2095,
             "users": [
               {
                 "encryption": "none",
@@ -5890,7 +5890,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/Sj9pJSKmHZjo?ed=2560"
+          "path": "/etD7NWUpWHVK?ed=2560"
         }
       },
       "tag": "proxy-150"
@@ -5905,7 +5905,7 @@
         "vnext": [
           {
             "address": "chatgpt.com",
-            "port": 443,
+            "port": 2087,
             "users": [
               {
                 "encryption": "none",
@@ -5922,7 +5922,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/hs0f6v2AruHM?ed=2048"
+          "path": "/09r5fe9wDrwB?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -5964,7 +5964,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/AKILSR1d2Eqe?ed=2560"
+          "path": "/UcnMvprPd6uL?ed=2560"
         }
       },
       "tag": "proxy-152"
@@ -5979,7 +5979,7 @@
         "vnext": [
           {
             "address": "medium.com",
-            "port": 443,
+            "port": 2053,
             "users": [
               {
                 "encryption": "none",
@@ -5996,7 +5996,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/I7CCygWuTTbE?ed=2048"
+          "path": "/9XNkBNihvS5W?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -6021,7 +6021,7 @@
         "vnext": [
           {
             "address": "medium.com",
-            "port": 8880,
+            "port": 2086,
             "users": [
               {
                 "encryption": "none",
@@ -6038,7 +6038,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/g2q5DDOGCcAt?ed=2560"
+          "path": "/NpfSMyDDBphz?ed=2560"
         }
       },
       "tag": "proxy-154"
@@ -6053,7 +6053,7 @@
         "vnext": [
           {
             "address": "npmjs.com",
-            "port": 443,
+            "port": 2096,
             "users": [
               {
                 "encryption": "none",
@@ -6070,7 +6070,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/0PPlpENyTm3n?ed=2048"
+          "path": "/8KmDy9j25FlE?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -6095,7 +6095,7 @@
         "vnext": [
           {
             "address": "npmjs.com",
-            "port": 2095,
+            "port": 8880,
             "users": [
               {
                 "encryption": "none",
@@ -6112,7 +6112,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/EFjKOQCzx5Ut?ed=2560"
+          "path": "/mf4kndxY0HXe?ed=2560"
         }
       },
       "tag": "proxy-156"
@@ -6127,7 +6127,7 @@
         "vnext": [
           {
             "address": "nodejs.org",
-            "port": 2096,
+            "port": 2053,
             "users": [
               {
                 "encryption": "none",
@@ -6144,7 +6144,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/BhjcRadfB8IX?ed=2048"
+          "path": "/QxfSoSjhuqzz?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -6169,7 +6169,7 @@
         "vnext": [
           {
             "address": "nodejs.org",
-            "port": 80,
+            "port": 8080,
             "users": [
               {
                 "encryption": "none",
@@ -6186,7 +6186,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/f8vasgOKrlQp?ed=2560"
+          "path": "/UhjShepVVN0M?ed=2560"
         }
       },
       "tag": "proxy-158"
@@ -6201,7 +6201,7 @@
         "vnext": [
           {
             "address": "csgo.com",
-            "port": 2053,
+            "port": 2087,
             "users": [
               {
                 "encryption": "none",
@@ -6218,7 +6218,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/i2gjzAMCNUhI?ed=2048"
+          "path": "/lKftkHUBVqJx?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -6243,7 +6243,7 @@
         "vnext": [
           {
             "address": "csgo.com",
-            "port": 8080,
+            "port": 2082,
             "users": [
               {
                 "encryption": "none",
@@ -6260,7 +6260,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/KpswnKHjHMxj?ed=2560"
+          "path": "/xqf1iwLxa4A2?ed=2560"
         }
       },
       "tag": "proxy-160"
@@ -6275,7 +6275,7 @@
         "vnext": [
           {
             "address": "harbor.io",
-            "port": 2096,
+            "port": 2083,
             "users": [
               {
                 "encryption": "none",
@@ -6292,7 +6292,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/rkoLK8D8BEQ2?ed=2048"
+          "path": "/uhdgb6aO29jf?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -6317,7 +6317,7 @@
         "vnext": [
           {
             "address": "harbor.io",
-            "port": 2052,
+            "port": 2095,
             "users": [
               {
                 "encryption": "none",
@@ -6334,7 +6334,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/I5XUCsdZucSe?ed=2560"
+          "path": "/dsvfHr4SlMxP?ed=2560"
         }
       },
       "tag": "proxy-162"
@@ -6349,7 +6349,7 @@
         "vnext": [
           {
             "address": "linkerd.io",
-            "port": 2053,
+            "port": 2096,
             "users": [
               {
                 "encryption": "none",
@@ -6366,7 +6366,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/nY0gCjyaFQP6?ed=2048"
+          "path": "/lMokg5HpIR5Y?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -6391,7 +6391,7 @@
         "vnext": [
           {
             "address": "linkerd.io",
-            "port": 2082,
+            "port": 2052,
             "users": [
               {
                 "encryption": "none",
@@ -6408,7 +6408,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/8RcKrSwv4Os4?ed=2560"
+          "path": "/7SCEf9bldATf?ed=2560"
         }
       },
       "tag": "proxy-164"
@@ -6423,7 +6423,7 @@
         "vnext": [
           {
             "address": "fbi.gov",
-            "port": 2096,
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -6440,7 +6440,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/72lzQX3DGYtr?ed=2048"
+          "path": "/eyBIYDByxwPt?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -6482,7 +6482,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/RCiSV541P6Qw?ed=2560"
+          "path": "/wGYPE3S2QpiD?ed=2560"
         }
       },
       "tag": "proxy-166"
@@ -6497,7 +6497,7 @@
         "vnext": [
           {
             "address": "zula.ir",
-            "port": 2096,
+            "port": 2087,
             "users": [
               {
                 "encryption": "none",
@@ -6514,7 +6514,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/X5QanlXUglB5?ed=2048"
+          "path": "/4FwFVrsJ69sj?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -6539,7 +6539,7 @@
         "vnext": [
           {
             "address": "zula.ir",
-            "port": 2086,
+            "port": 2052,
             "users": [
               {
                 "encryption": "none",
@@ -6556,7 +6556,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/nrralzSp3WV2?ed=2560"
+          "path": "/zYQ8fZ4JHfVi?ed=2560"
         }
       },
       "tag": "proxy-168"
@@ -6570,8 +6570,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "190.93.247.35",
-            "port": 2087,
+            "address": "172.67.69.67",
+            "port": 2083,
             "users": [
               {
                 "encryption": "none",
@@ -6588,7 +6588,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/MIBzsIhDyenY?ed=2048"
+          "path": "/o4KvGwDP9xci?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -6612,8 +6612,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "190.93.247.35",
-            "port": 2095,
+            "address": "172.67.69.67",
+            "port": 8080,
             "users": [
               {
                 "encryption": "none",
@@ -6630,7 +6630,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/RuUyyaFOOjdc?ed=2560"
+          "path": "/RhR76rPBDqny?ed=2560"
         }
       },
       "tag": "proxy-170"
@@ -6644,8 +6644,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "190.93.245.90",
-            "port": 2087,
+            "address": "104.16.140.89",
+            "port": 2083,
             "users": [
               {
                 "encryption": "none",
@@ -6662,7 +6662,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/2uA7MNe2wtNk?ed=2048"
+          "path": "/plDJM7Vm5ytd?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -6686,8 +6686,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "190.93.245.90",
-            "port": 2086,
+            "address": "104.16.140.89",
+            "port": 2052,
             "users": [
               {
                 "encryption": "none",
@@ -6704,7 +6704,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/AU5seuTu66Bc?ed=2560"
+          "path": "/qGqYS1MuyZGh?ed=2560"
         }
       },
       "tag": "proxy-172"
@@ -6718,7 +6718,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.27.196.55",
+            "address": "104.26.4.213",
             "port": 2087,
             "users": [
               {
@@ -6736,7 +6736,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/bg3axivkn4H9?ed=2048"
+          "path": "/cFWxQAHx6jRN?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -6760,8 +6760,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.27.196.55",
-            "port": 2086,
+            "address": "104.26.4.213",
+            "port": 2052,
             "users": [
               {
                 "encryption": "none",
@@ -6778,7 +6778,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/4WCkFKkHBviO?ed=2560"
+          "path": "/M8GgIJGj871l?ed=2560"
         }
       },
       "tag": "proxy-174"
@@ -6792,7 +6792,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "141.101.115.71",
+            "address": "8.6.112.185",
             "port": 2096,
             "users": [
               {
@@ -6810,7 +6810,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/kXX6Ro23Inwj?ed=2048"
+          "path": "/VYalfqseIWqm?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -6834,8 +6834,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "141.101.115.71",
-            "port": 2086,
+            "address": "8.6.112.185",
+            "port": 80,
             "users": [
               {
                 "encryption": "none",
@@ -6852,7 +6852,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/m2W4EfuSK4bL?ed=2560"
+          "path": "/BfpAd2J4ublG?ed=2560"
         }
       },
       "tag": "proxy-176"
@@ -6866,8 +6866,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.148.5",
-            "port": 2083,
+            "address": "188.114.98.155",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -6884,7 +6884,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/UGzHJN6PaoG9?ed=2048"
+          "path": "/H4vyt6m6Rc5h?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -6908,8 +6908,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.148.5",
-            "port": 8880,
+            "address": "188.114.98.155",
+            "port": 2082,
             "users": [
               {
                 "encryption": "none",
@@ -6926,7 +6926,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/jGPeK2W8QZug?ed=2560"
+          "path": "/mZ1WcDgi7BL1?ed=2560"
         }
       },
       "tag": "proxy-178"
@@ -6940,8 +6940,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.14",
-            "port": 8443,
+            "address": "162.159.193.108",
+            "port": 2083,
             "users": [
               {
                 "encryption": "none",
@@ -6958,7 +6958,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/Q2ziUW28K4WV?ed=2048"
+          "path": "/vOguYIBc5t41?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -6982,8 +6982,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.14",
-            "port": 8880,
+            "address": "162.159.193.108",
+            "port": 80,
             "users": [
               {
                 "encryption": "none",
@@ -7000,7 +7000,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/rUPl6mj91Fgu?ed=2560"
+          "path": "/BnFOnqAcxISk?ed=2560"
         }
       },
       "tag": "proxy-180"
@@ -7014,8 +7014,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.158.12",
-            "port": 2053,
+            "address": "141.101.115.183",
+            "port": 2083,
             "users": [
               {
                 "encryption": "none",
@@ -7032,7 +7032,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/DK03zWXZQUOv?ed=2048"
+          "path": "/PaopavuNyPx7?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -7056,8 +7056,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.158.12",
-            "port": 80,
+            "address": "141.101.115.183",
+            "port": 2082,
             "users": [
               {
                 "encryption": "none",
@@ -7074,7 +7074,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/0ayjLZaoU87A?ed=2560"
+          "path": "/SpsAmxBjZYUo?ed=2560"
         }
       },
       "tag": "proxy-182"
@@ -7088,8 +7088,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.111",
-            "port": 2096,
+            "address": "190.93.247.166",
+            "port": 2053,
             "users": [
               {
                 "encryption": "none",
@@ -7106,7 +7106,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/B4VA6X5Vjzop?ed=2048"
+          "path": "/FZuQzlhIM46z?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -7130,8 +7130,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.96.111",
-            "port": 2086,
+            "address": "190.93.247.166",
+            "port": 8080,
             "users": [
               {
                 "encryption": "none",
@@ -7148,7 +7148,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/YpU1dickMLZ0?ed=2560"
+          "path": "/9ioVdH556neP?ed=2560"
         }
       },
       "tag": "proxy-184"
@@ -7162,8 +7162,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.0.240",
-            "port": 443,
+            "address": "162.159.195.71",
+            "port": 2096,
             "users": [
               {
                 "encryption": "none",
@@ -7180,7 +7180,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/yj6jshzTnpWV?ed=2048"
+          "path": "/wiJtS1HDDHKV?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -7204,8 +7204,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.0.240",
-            "port": 2095,
+            "address": "162.159.195.71",
+            "port": 8080,
             "users": [
               {
                 "encryption": "none",
@@ -7222,7 +7222,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/rFJFFh7KSGQG?ed=2560"
+          "path": "/qZIDPlkzzWzp?ed=2560"
         }
       },
       "tag": "proxy-186"
@@ -7236,8 +7236,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.6.44",
-            "port": 2083,
+            "address": "104.18.79.167",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -7254,7 +7254,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/IyD6Abqr9GFR?ed=2048"
+          "path": "/osHorINxeQLr?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -7278,8 +7278,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.20.6.44",
-            "port": 2095,
+            "address": "104.18.79.167",
+            "port": 8880,
             "users": [
               {
                 "encryption": "none",
@@ -7296,7 +7296,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/mSJIqixRp6jV?ed=2560"
+          "path": "/tO1iSIc8XYZQ?ed=2560"
         }
       },
       "tag": "proxy-188"
@@ -7310,8 +7310,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.19.220.161",
-            "port": 443,
+            "address": "188.114.96.228",
+            "port": 2083,
             "users": [
               {
                 "encryption": "none",
@@ -7328,7 +7328,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/kRCT59RVX7Sz?ed=2048"
+          "path": "/xLXk8o9I1oZo?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -7352,8 +7352,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.19.220.161",
-            "port": 2086,
+            "address": "188.114.96.228",
+            "port": 80,
             "users": [
               {
                 "encryption": "none",
@@ -7370,7 +7370,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/SwzGHZoYRSyq?ed=2560"
+          "path": "/LRpMVSCxRz8b?ed=2560"
         }
       },
       "tag": "proxy-190"
@@ -7384,8 +7384,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.140.222",
-            "port": 2087,
+            "address": "172.67.158.252",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -7402,7 +7402,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/T5dpU9PZnq1C?ed=2048"
+          "path": "/Bnh7OBW5ZN7T?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -7426,8 +7426,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.140.222",
-            "port": 2082,
+            "address": "172.67.158.252",
+            "port": 8080,
             "users": [
               {
                 "encryption": "none",
@@ -7444,7 +7444,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/ce6bpKyEmOXB?ed=2560"
+          "path": "/Wvz4AYC7J3Tr?ed=2560"
         }
       },
       "tag": "proxy-192"
@@ -7458,7 +7458,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.158.103",
+            "address": "188.114.99.239",
             "port": 8443,
             "users": [
               {
@@ -7476,7 +7476,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/RwnSL8f7unmA?ed=2048"
+          "path": "/aqcSwGMosxng?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -7500,8 +7500,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.158.103",
-            "port": 2095,
+            "address": "188.114.99.239",
+            "port": 2082,
             "users": [
               {
                 "encryption": "none",
@@ -7518,7 +7518,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/czPFhFstg7Fa?ed=2560"
+          "path": "/y0tRh0YnMx6K?ed=2560"
         }
       },
       "tag": "proxy-194"
@@ -7532,8 +7532,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.148.146",
-            "port": 443,
+            "address": "188.114.98.23",
+            "port": 2053,
             "users": [
               {
                 "encryption": "none",
@@ -7550,7 +7550,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/8GZBh3iLw9fD?ed=2048"
+          "path": "/cgKqVtZEXVq4?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -7574,8 +7574,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.148.146",
-            "port": 2082,
+            "address": "188.114.98.23",
+            "port": 8080,
             "users": [
               {
                 "encryption": "none",
@@ -7592,7 +7592,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/o3X7WE70PZIF?ed=2560"
+          "path": "/o6FKXbbGq3kb?ed=2560"
         }
       },
       "tag": "proxy-196"
@@ -7606,8 +7606,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "141.101.115.3",
-            "port": 2053,
+            "address": "104.16.148.184",
+            "port": 2096,
             "users": [
               {
                 "encryption": "none",
@@ -7624,7 +7624,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/9wP9wO46I6ta?ed=2048"
+          "path": "/G6NkOYRvgweK?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -7648,8 +7648,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "141.101.115.3",
-            "port": 80,
+            "address": "104.16.148.184",
+            "port": 2095,
             "users": [
               {
                 "encryption": "none",
@@ -7666,7 +7666,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/Cu4TqxDypmqe?ed=2560"
+          "path": "/itmo8PoEVmAN?ed=2560"
         }
       },
       "tag": "proxy-198"
@@ -7680,8 +7680,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.121.170",
-            "port": 443,
+            "address": "190.93.247.193",
+            "port": 2053,
             "users": [
               {
                 "encryption": "none",
@@ -7698,7 +7698,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/Y91PdedjER91?ed=2048"
+          "path": "/AuZ8u1MDapmC?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -7722,7 +7722,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.121.170",
+            "address": "190.93.247.193",
             "port": 80,
             "users": [
               {
@@ -7740,7 +7740,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/JTjkpJuIALpJ?ed=2560"
+          "path": "/LtaJy9C2DfEz?ed=2560"
         }
       },
       "tag": "proxy-200"
@@ -7754,8 +7754,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "190.93.247.198",
-            "port": 8443,
+            "address": "188.114.98.184",
+            "port": 2087,
             "users": [
               {
                 "encryption": "none",
@@ -7772,7 +7772,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/ju69INpatoRd?ed=2048"
+          "path": "/iek4hifgZubw?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -7796,8 +7796,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "190.93.247.198",
-            "port": 80,
+            "address": "188.114.98.184",
+            "port": 2095,
             "users": [
               {
                 "encryption": "none",
@@ -7814,7 +7814,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/Y9oC9t7Y2lZb?ed=2560"
+          "path": "/2K6pb5tlwv1A?ed=2560"
         }
       },
       "tag": "proxy-202"
@@ -7828,8 +7828,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.193.225",
-            "port": 2083,
+            "address": "188.114.97.244",
+            "port": 2087,
             "users": [
               {
                 "encryption": "none",
@@ -7846,7 +7846,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/r0qBqpzFrkEk?ed=2048"
+          "path": "/kMH8Q8vu31bi?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -7870,8 +7870,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.193.225",
-            "port": 80,
+            "address": "188.114.97.244",
+            "port": 8880,
             "users": [
               {
                 "encryption": "none",
@@ -7888,7 +7888,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/tuwtKhLkL61m?ed=2560"
+          "path": "/uUoN6HVTtbW5?ed=2560"
         }
       },
       "tag": "proxy-204"
@@ -7902,7 +7902,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.99.88",
+            "address": "162.159.243.134",
             "port": 2053,
             "users": [
               {
@@ -7920,7 +7920,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/EDcQM6lnADYQ?ed=2048"
+          "path": "/L9DpdiCBEMAI?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -7944,7 +7944,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.114.99.88",
+            "address": "162.159.243.134",
             "port": 80,
             "users": [
               {
@@ -7962,7 +7962,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/g8bLnsBQ2qx4?ed=2560"
+          "path": "/AeAXOEGL8MwF?ed=2560"
         }
       },
       "tag": "proxy-206"
@@ -7976,8 +7976,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.146.139",
-            "port": 8443,
+            "address": "190.93.245.4",
+            "port": 2096,
             "users": [
               {
                 "encryption": "none",
@@ -7994,7 +7994,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/ZD0hpcAxjbXm?ed=2048"
+          "path": "/uf2dBg9bvIV6?ed=2048"
         },
         "security": "tls",
         "tlsSettings": {
@@ -8018,8 +8018,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.64.146.139",
-            "port": 8880,
+            "address": "190.93.245.4",
+            "port": 8080,
             "users": [
               {
                 "encryption": "none",
@@ -8036,7 +8036,7 @@
           "headers": {
             "Host": "zr-wasm.mah123-efc.workers.dev"
           },
-          "path": "/LTSyoWA40sWV?ed=2560"
+          "path": "/Ku1OJ4OyUCKM?ed=2560"
         }
       },
       "tag": "proxy-208"
@@ -8508,8 +8508,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "188.164.248.43",
-            "port": 443,
+            "address": "104.17.219.135",
+            "port": 2083,
             "users": [
               {
                 "encryption": "none",
@@ -8547,7 +8547,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.26.10.86",
+            "address": "8.35.211.235",
             "port": 2053,
             "users": [
               {
@@ -8586,8 +8586,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.67.75.103",
-            "port": 8443,
+            "address": "162.159.36.237",
+            "port": 2083,
             "users": [
               {
                 "encryption": "none",
@@ -8625,8 +8625,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.39.108",
-            "port": 8443,
+            "address": "104.17.16.63",
+            "port": 2096,
             "users": [
               {
                 "encryption": "none",
@@ -8664,8 +8664,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.41.171",
-            "port": 443,
+            "address": "198.41.208.107",
+            "port": 2083,
             "users": [
               {
                 "encryption": "none",
@@ -8703,8 +8703,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.183.114",
-            "port": 443,
+            "address": "162.159.39.120",
+            "port": 2096,
             "users": [
               {
                 "encryption": "none",
@@ -8742,8 +8742,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.19.55.23",
-            "port": 2096,
+            "address": "91.193.59.5",
+            "port": 2083,
             "users": [
               {
                 "encryption": "none",
@@ -8781,8 +8781,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.190.209",
-            "port": 8443,
+            "address": "172.67.72.229",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -8820,7 +8820,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.18.95",
+            "address": "8.35.211.167",
             "port": 2096,
             "users": [
               {
@@ -8859,8 +8859,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.16.246.96",
-            "port": 2087,
+            "address": "91.193.58.185",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -8898,8 +8898,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "162.159.43.206",
-            "port": 2087,
+            "address": "104.16.247.55",
+            "port": 2096,
             "users": [
               {
                 "encryption": "none",
@@ -8937,8 +8937,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.19.151.3",
-            "port": 2096,
+            "address": "91.193.58.127",
+            "port": 8443,
             "users": [
               {
                 "encryption": "none",
@@ -8976,8 +8976,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.104.30",
-            "port": 8443,
+            "address": "104.17.55.53",
+            "port": 2087,
             "users": [
               {
                 "encryption": "none",
@@ -9015,8 +9015,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "104.17.109.157",
-            "port": 2053,
+            "address": "198.41.208.230",
+            "port": 443,
             "users": [
               {
                 "encryption": "none",
@@ -9054,8 +9054,8 @@
       "settings": {
         "vnext": [
           {
-            "address": "172.66.1.81",
-            "port": 2096,
+            "address": "104.17.100.70",
+            "port": 2083,
             "users": [
               {
                 "encryption": "none",
@@ -9093,7 +9093,7 @@
       "settings": {
         "vnext": [
           {
-            "address": "8.35.211.25",
+            "address": "108.162.198.191",
             "port": 2087,
             "users": [
               {
