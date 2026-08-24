@@ -1,3 +1,13 @@
+#!/usr/bin/env python3
+"""
+Subscription Manager for VLESS
+- Fetches from SUB_URLS (base64 or plain)
+- Outputs:
+    1) javidsub        : raw VLESS links
+    2) final_sub.txt   : Xray/V2Ray full config
+    3) javidbox.json   : Sing‑Box full config with urltest & selector
+"""
+
 import base64
 import json
 import logging
@@ -7,7 +17,7 @@ import urllib.request
 from typing import Any, Dict, List, Optional, Set
 from urllib.parse import parse_qs, unquote, urlparse
 
-# ==================== Logging Setup ====================
+# ==================== Logging ====================
 logging.basicConfig(
     level=logging.INFO,
     format="%(asctime)s - %(levelname)s - %(message)s",
@@ -17,223 +27,190 @@ logger = logging.getLogger(__name__)
 
 
 # ==================== Validation ====================
-def is_valid_vless_url(url: str) -> bool:
-    """Check if the URL is a valid VLESS link."""
+def is_valid_vless(url: str) -> bool:
+    """Validate VLESS URL format."""
     if not url or not url.startswith("vless://"):
         return False
-    pattern = r"^vless://[a-f0-9\-]{36}@[a-zA-Z0-9\.\-]+:\d+.*$"
-    return bool(re.match(pattern, url))
+    return bool(re.match(r"^vless://[a-f0-9\-]{36}@[a-zA-Z0-9\.\-]+:\d+.*$", url))
 
 
-# ==================== Fetching & Decoding ====================
-def fetch_and_decode(sub_url: str) -> List[str]:
-    """
-    Fetch a subscription URL, decode if Base64, return list of lines.
-    """
+# ==================== Fetch & Decode ====================
+def fetch_subscription(sub_url: str) -> List[str]:
+    """Fetch and decode (if base64) a subscription URL."""
     try:
         req = urllib.request.Request(
             sub_url,
             headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"},
         )
-        with urllib.request.urlopen(req, timeout=15) as response:
-            content = response.read().decode("utf-8").strip()
-            # Try Base64 decode
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            content = resp.read().decode("utf-8").strip()
+            # Try base64 decode
             try:
                 decoded = base64.b64decode(content).decode("utf-8")
-                logger.info(f"Base64 decoded content from {sub_url[:50]}...")
+                logger.info(f"Base64 decoded: {sub_url[:50]}...")
                 return decoded.splitlines()
             except Exception:
-                logger.info(f"Plain text content from {sub_url[:50]}...")
+                logger.info(f"Plain text: {sub_url[:50]}...")
                 return content.splitlines()
-    except urllib.error.URLError as e:
-        logger.error(f"Network error fetching {sub_url}: {e}")
     except Exception as e:
-        logger.error(f"Unexpected error fetching {sub_url}: {e}")
-    return []
+        logger.error(f"Failed to fetch {sub_url}: {e}")
+        return []
 
 
-# ==================== Xray/V2Ray Parser ====================
-def parse_vless_to_xray(vless_url: str, tag: str) -> Optional[Dict[str, Any]]:
-    """Convert VLESS URL to Xray outbound object."""
+# ==================== Xray Parser ====================
+def to_xray_outbound(link: str, tag: str) -> Optional[Dict[str, Any]]:
+    """Convert VLESS link to Xray outbound object."""
     try:
-        if not is_valid_vless_url(vless_url):
+        if not is_valid_vless(link):
             return None
-
-        parsed = urlparse(vless_url)
+        parsed = urlparse(link)
         uuid = parsed.username
-        address = parsed.hostname
+        addr = parsed.hostname
         port = parsed.port or 443
-
-        if not uuid or not address:
-            logger.warning(f"Missing UUID/address in {vless_url[:50]}...")
+        if not uuid or not addr:
             return None
 
-        params = parse_qs(parsed.query)
-        network = params.get("type", ["tcp"])[0]
-        security = params.get("security", ["none"])[0]
-        path = unquote(params.get("path", ["/"])[0])
-        host = params.get("host", [""])[0]
-        sni = params.get("sni", [""])[0]
-        fp = params.get("fp", ["chrome"])[0]
-        alpn_raw = params.get("alpn", [""])[0]
+        q = parse_qs(parsed.query)
+        net = q.get("type", ["tcp"])[0]
+        sec = q.get("security", ["none"])[0]
+        path = unquote(q.get("path", ["/"])[0])
+        host = q.get("host", [""])[0]
+        sni = q.get("sni", [""])[0]
+        fp = q.get("fp", ["chrome"])[0]
+        alpn_raw = q.get("alpn", [""])[0]
         alpn = [x.strip() for x in alpn_raw.split(",") if x.strip()]
 
-        try:
-            port_num = int(port)
-            if not 1 <= port_num <= 65535:
-                raise ValueError("Port out of range")
-        except ValueError:
-            logger.warning(f"Invalid port: {port}")
-            return None
+        port_num = int(port)
+        if not 1 <= port_num <= 65535:
+            raise ValueError("port out of range")
 
-        outbound: Dict[str, Any] = {
+        out = {
             "mux": {"concurrency": -1, "enabled": False},
             "protocol": "vless",
             "settings": {
-                "vnext": [
-                    {
-                        "address": address,
-                        "port": port_num,
-                        "users": [{"encryption": "none", "id": uuid, "level": 8}],
-                    }
-                ]
+                "vnext": [{
+                    "address": addr,
+                    "port": port_num,
+                    "users": [{"encryption": "none", "id": uuid, "level": 8}],
+                }]
             },
-            "streamSettings": {"network": network},
+            "streamSettings": {"network": net},
             "tag": tag,
         }
 
-        # Stream settings
-        if network == "ws":
-            ws: Dict[str, Any] = {"headers": {}}
+        if net == "ws":
+            ws = {"headers": {}}
             if host:
                 ws["headers"]["Host"] = host
             if path:
                 ws["path"] = path
-            outbound["streamSettings"]["wsSettings"] = ws
+            out["streamSettings"]["wsSettings"] = ws
+        elif net == "grpc":
+            svc = q.get("serviceName", [""])[0]
+            if svc:
+                out["streamSettings"]["grpcSettings"] = {"serviceName": svc}
 
-        elif network == "grpc":
-            service_name = params.get("serviceName", [""])[0]
-            if service_name:
-                outbound["streamSettings"]["grpcSettings"] = {
-                    "serviceName": service_name
-                }
-
-        # TLS / Reality
-        if security == "tls":
-            outbound["streamSettings"]["security"] = "tls"
-            tls: Dict[str, Any] = {"allowInsecure": False, "show": False}
-            tls["serverName"] = sni or address
+        if sec == "tls":
+            out["streamSettings"]["security"] = "tls"
+            tls = {"allowInsecure": False, "show": False, "serverName": sni or addr}
             if fp:
                 tls["fingerprint"] = fp
             if alpn:
                 tls["alpn"] = alpn
-            outbound["streamSettings"]["tlsSettings"] = tls
-
-        elif security == "reality":
-            outbound["streamSettings"]["security"] = "reality"
-            reality: Dict[str, Any] = {
+            out["streamSettings"]["tlsSettings"] = tls
+        elif sec == "reality":
+            out["streamSettings"]["security"] = "reality"
+            reality = {
                 "show": False,
-                "publicKey": params.get("pbk", [""])[0],
-                "shortId": params.get("sid", [""])[0],
+                "publicKey": q.get("pbk", [""])[0],
+                "shortId": q.get("sid", [""])[0],
+                "serverName": sni or addr,
             }
-            reality["serverName"] = sni or address
             if fp:
                 reality["fingerprint"] = fp
-            outbound["streamSettings"]["realitySettings"] = reality
+            out["streamSettings"]["realitySettings"] = reality
 
-        return outbound
-
+        return out
     except Exception as e:
-        logger.error(f"Error parsing Xray outbound: {e}")
+        logger.error(f"Xray parse error for {link[:50]}...: {e}")
         return None
 
 
-# ==================== Sing-Box Parser ====================
-def parse_vless_to_singbox(vless_url: str, tag: str) -> Optional[Dict[str, Any]]:
-    """Convert VLESS URL to Sing-Box outbound object."""
+# ==================== Sing‑Box Parser ====================
+def to_singbox_outbound(link: str, tag: str) -> Optional[Dict[str, Any]]:
+    """Convert VLESS link to Sing‑Box outbound object."""
     try:
-        if not is_valid_vless_url(vless_url):
+        if not is_valid_vless(link):
             return None
-
-        parsed = urlparse(vless_url)
+        parsed = urlparse(link)
         uuid = parsed.username
-        address = parsed.hostname
+        addr = parsed.hostname
         port = parsed.port or 443
-
-        if not uuid or not address:
-            logger.warning(f"Missing UUID/address in {vless_url[:50]}...")
+        if not uuid or not addr:
             return None
 
-        params = parse_qs(parsed.query)
-        network = params.get("type", ["tcp"])[0]
-        security = params.get("security", ["none"])[0]
-        path = unquote(params.get("path", ["/"])[0])
-        host = params.get("host", [""])[0]
-        sni = params.get("sni", [""])[0]
-        fp = params.get("fp", ["chrome"])[0]
-        alpn_raw = params.get("alpn", [""])[0]
+        q = parse_qs(parsed.query)
+        net = q.get("type", ["tcp"])[0]
+        sec = q.get("security", ["none"])[0]
+        path = unquote(q.get("path", ["/"])[0])
+        host = q.get("host", [""])[0]
+        sni = q.get("sni", [""])[0]
+        fp = q.get("fp", ["chrome"])[0]
+        alpn_raw = q.get("alpn", [""])[0]
         alpn = [x.strip() for x in alpn_raw.split(",") if x.strip()]
 
-        try:
-            port_num = int(port)
-            if not 1 <= port_num <= 65535:
-                raise ValueError("Port out of range")
-        except ValueError:
-            logger.warning(f"Invalid port: {port}")
-            return None
+        port_num = int(port)
+        if not 1 <= port_num <= 65535:
+            raise ValueError("port out of range")
 
-        outbound: Dict[str, Any] = {
+        out: Dict[str, Any] = {
             "type": "vless",
             "tag": tag,
-            "server": address,
+            "server": addr,
             "server_port": port_num,
             "uuid": uuid,
-            "flow": "none",  # default
+            "flow": "none",
         }
 
         # Transport
-        transport: Dict[str, Any] = {"type": network}
-        if network == "ws":
-            if path:
-                transport["path"] = path
-            if host:
-                transport["headers"] = {"Host": host}
-        elif network == "grpc":
-            service_name = params.get("serviceName", [""])[0]
-            if service_name:
-                transport["service_name"] = service_name
-
-        if network in ("ws", "grpc"):
-            outbound["transport"] = transport
+        if net in ("ws", "grpc"):
+            tr: Dict[str, Any] = {"type": net}
+            if net == "ws":
+                if path:
+                    tr["path"] = path
+                if host:
+                    tr["headers"] = {"Host": host}
+            elif net == "grpc":
+                svc = q.get("serviceName", [""])[0]
+                if svc:
+                    tr["service_name"] = svc
+            out["transport"] = tr
 
         # TLS / Reality
-        if security in ("tls", "reality"):
-            tls_obj: Dict[str, Any] = {"enabled": True}
-            tls_obj["server_name"] = sni or address
+        if sec in ("tls", "reality"):
+            tls: Dict[str, Any] = {"enabled": True, "server_name": sni or addr}
             if fp:
-                tls_obj["utls"] = {"enabled": True, "fingerprint": fp}
+                tls["utls"] = {"enabled": True, "fingerprint": fp}
             if alpn:
-                tls_obj["alpn"] = alpn
-
-            if security == "reality":
-                tls_obj["reality"] = {
+                tls["alpn"] = alpn
+            if sec == "reality":
+                tls["reality"] = {
                     "enabled": True,
-                    "public_key": params.get("pbk", [""])[0],
-                    "short_id": params.get("sid", [""])[0],
+                    "public_key": q.get("pbk", [""])[0],
+                    "short_id": q.get("sid", [""])[0],
                 }
-            outbound["tls"] = tls_obj
+            out["tls"] = tls
 
-        return outbound
-
+        return out
     except Exception as e:
-        logger.error(f"Error parsing Sing-Box outbound: {e}")
+        logger.error(f"Sing‑Box parse error for {link[:50]}...: {e}")
         return None
 
 
-# ==================== Generate Xray Full JSON ====================
-def generate_xray_full(outbounds: List[Dict[str, Any]]) -> Dict[str, Any]:
-    """Generate the full Xray/V2Ray JSON configuration."""
-    base: Dict[str, Any] = {
+# ==================== Build Xray Full Config ====================
+def build_xray_config(outbounds: List[Dict[str, Any]]) -> Dict[str, Any]:
+    """Generate complete Xray/V2Ray JSON."""
+    config: Dict[str, Any] = {
         "dns": {
             "hosts": {
                 "domain:googleapis.cn": "googleapis.com",
@@ -255,16 +232,14 @@ def generate_xray_full(outbounds: List[Dict[str, Any]]) -> Dict[str, Any]:
             ],
             "tag": "dns-module",
         },
-        "inbounds": [
-            {
-                "listen": "127.0.0.1",
-                "port": 10808,
-                "protocol": "socks",
-                "settings": {"auth": "noauth", "udp": True, "userLevel": 8},
-                "sniffing": {"destOverride": ["http", "tls"], "enabled": True, "routeOnly": False},
-                "tag": "socks",
-            }
-        ],
+        "inbounds": [{
+            "listen": "127.0.0.1",
+            "port": 10808,
+            "protocol": "socks",
+            "settings": {"auth": "noauth", "udp": True, "userLevel": 8},
+            "sniffing": {"destOverride": ["http", "tls"], "enabled": True, "routeOnly": False},
+            "tag": "socks",
+        }],
         "log": {"loglevel": "warning"},
         "observatory": {
             "enableConcurrency": True,
@@ -272,20 +247,17 @@ def generate_xray_full(outbounds: List[Dict[str, Any]]) -> Dict[str, Any]:
             "probeUrl": "https://www.gstatic.com/generate_204",
             "subjectSelector": ["proxy-"],
         },
-        "outbounds": [],
+        "outbounds": outbounds + [
+            {"protocol": "freedom", "settings": {"domainStrategy": "UseIP"}, "tag": "direct"},
+            {"protocol": "blackhole", "settings": {"response": {"type": "http"}}, "tag": "block"},
+        ],
         "policy": {
             "levels": {"8": {"connIdle": 300, "downlinkOnly": 1, "handshake": 4, "uplinkOnly": 1}},
             "system": {"statsOutboundDownlink": True, "statsOutboundUplink": True},
         },
         "remarks": "javidsub Intelligent Selection",
         "routing": {
-            "balancers": [
-                {
-                    "selector": ["proxy-"],
-                    "strategy": {"type": "leastPing"},
-                    "tag": "proxy-round",
-                }
-            ],
+            "balancers": [{"selector": ["proxy-"], "strategy": {"type": "leastPing"}, "tag": "proxy-round"}],
             "domainStrategy": "AsIs",
             "rules": [
                 {"network": "udp", "outboundTag": "block", "port": "443", "type": "field"},
@@ -301,19 +273,14 @@ def generate_xray_full(outbounds: List[Dict[str, Any]]) -> Dict[str, Any]:
         },
         "stats": {},
     }
-
-    base["outbounds"].extend(outbounds)
-    base["outbounds"].append({"protocol": "freedom", "settings": {"domainStrategy": "UseIP"}, "tag": "direct"})
-    base["outbounds"].append({"protocol": "blackhole", "settings": {"response": {"type": "http"}}, "tag": "block"})
-    return base
+    return config
 
 
-# ==================== Generate Sing-Box JSON ====================
-def generate_singbox_full(outbounds: List[Dict[str, Any]]) -> Dict[str, Any]:
-    """Generate full Sing-Box JSON with urltest, selector, and routing."""
+# ==================== Build Sing‑Box Full Config ====================
+def build_singbox_config(outbounds: List[Dict[str, Any]]) -> Dict[str, Any]:
+    """Generate complete Sing‑Box JSON with urltest and selector."""
     proxy_tags = [ob["tag"] for ob in outbounds]
 
-    # Base structure
     config: Dict[str, Any] = {
         "log": {"level": "warning"},
         "dns": {
@@ -331,18 +298,8 @@ def generate_singbox_full(outbounds: List[Dict[str, Any]]) -> Dict[str, Any]:
             "strategy": "ipv4_only",
         },
         "inbounds": [
-            {
-                "type": "socks",
-                "tag": "socks-in",
-                "listen": "127.0.0.1",
-                "listen_port": 10808,
-            },
-            {
-                "type": "http",
-                "tag": "http-in",
-                "listen": "127.0.0.1",
-                "listen_port": 10809,
-            },
+            {"type": "socks", "tag": "socks-in", "listen": "127.0.0.1", "listen_port": 10808},
+            {"type": "http", "tag": "http-in", "listen": "127.0.0.1", "listen_port": 10809},
         ],
         "outbounds": [],
         "route": {
@@ -351,120 +308,101 @@ def generate_singbox_full(outbounds: List[Dict[str, Any]]) -> Dict[str, Any]:
                 {"outbound": "direct", "geoip": ["cn"]},
                 {"outbound": "direct", "geosite": ["cn"]},
                 {"outbound": "proxy", "geosite": ["google"]},
-                {"outbound": "proxy", "network": ["tcp", "udp"]},  # catch-all
+                {"outbound": "proxy", "network": ["tcp", "udp"]},
             ],
             "final": "proxy",
             "auto_detect_interface": True,
         },
     }
 
-    # Add proxy outbounds
+    # Add all proxy outbounds
     config["outbounds"].extend(outbounds)
 
-    # urltest outbound
-    config["outbounds"].append(
-        {
-            "type": "urltest",
-            "tag": "proxy",
-            "outbounds": proxy_tags,
-            "url": "https://www.gstatic.com/generate_204",
-            "interval": "3m",
-            "tolerance": 50,
-        }
-    )
+    # urltest outbound (auto-ping)
+    config["outbounds"].append({
+        "type": "urltest",
+        "tag": "proxy",
+        "outbounds": proxy_tags,
+        "url": "https://www.gstatic.com/generate_204",
+        "interval": "3m",
+        "tolerance": 50,
+    })
 
-    # selector outbound (manual selection)
-    config["outbounds"].append(
-        {
-            "type": "selector",
-            "tag": "select",
-            "outbounds": ["proxy", "direct"],
-            "default": "proxy",
-        }
-    )
+    # selector (manual choice)
+    config["outbounds"].append({
+        "type": "selector",
+        "tag": "select",
+        "outbounds": ["proxy", "direct"],
+        "default": "proxy",
+    })
 
-    # direct and block
+    # direct & block
     config["outbounds"].append({"type": "direct", "tag": "direct"})
     config["outbounds"].append({"type": "block", "tag": "block"})
-
-    # Update route final to use selector or proxy? Usually we want auto-select via urltest,
-    # but we can set final to "proxy" (urltest) and also have selector for manual override.
-    # The route's final is "proxy", which is urltest.
-    # Users can switch to "select" in their client if they want manual.
-    config["route"]["final"] = "proxy"
 
     return config
 
 
 # ==================== Main ====================
 def main() -> None:
-    """Main entry point."""
-    raw_urls = os.environ.get("SUB_URLS", "")
-    urls = [u.strip() for u in raw_urls.splitlines() if u.strip()]
+    sub_env = os.environ.get("SUB_URLS", "")
+    sub_urls = [u.strip() for u in sub_env.splitlines() if u.strip()]
 
-    if not urls:
-        logger.error("No URLs found in SUB_URLS environment variable!")
+    if not sub_urls:
+        logger.error("SUB_URLS environment variable is empty or not set.")
         return
 
     all_links: List[str] = []
     seen: Set[str] = set()
 
-    # Fetch and deduplicate
-    for sub_url in urls:
-        logger.info(f"Fetching subscription: {sub_url[:50]}...")
-        lines = fetch_and_decode(sub_url)
+    for url in sub_urls:
+        logger.info(f"Fetching: {url[:50]}...")
+        lines = fetch_subscription(url)
         for line in lines:
             line = line.strip()
-            if is_valid_vless_url(line) and line not in seen:
+            if is_valid_vless(line) and line not in seen:
                 seen.add(line)
                 all_links.append(line)
 
     logger.info(f"Total unique VLESS links: {len(all_links)}")
-
     if not all_links:
-        logger.warning("No valid VLESS configurations found.")
+        logger.warning("No valid VLESS links found.")
         return
 
-    # 1. Save raw links to javidsub
+    # 1. Raw links
     with open("javidsub", "w", encoding="utf-8") as f:
         f.write("\n".join(all_links))
     logger.info("Saved raw links to javidsub")
 
-    # 2. Parse for Xray
-    xray_outbounds: List[Dict[str, Any]] = []
+    # 2. Xray outbounds
+    xray_outs: List[Dict[str, Any]] = []
     for idx, link in enumerate(all_links, start=1):
         tag = f"proxy-{idx}"
-        ob = parse_vless_to_xray(link, tag)
+        ob = to_xray_outbound(link, tag)
         if ob:
-            xray_outbounds.append(ob)
+            xray_outs.append(ob)
         else:
-            logger.warning(f"Failed to parse Xray config #{idx}")
+            logger.warning(f"Xray parse failed for #{idx}")
 
-    logger.info(f"Xray outbounds parsed: {len(xray_outbounds)} / {len(all_links)}")
-
-    # Generate final_sub.txt (Xray full config)
-    xray_full = generate_xray_full(xray_outbounds)
+    xray_config = build_xray_config(xray_outs)
     with open("final_sub.txt", "w", encoding="utf-8") as f:
-        json.dump(xray_full, f, ensure_ascii=False, indent=2)
-    logger.info("Saved Xray configuration to final_sub.txt")
+        json.dump(xray_config, f, ensure_ascii=False, indent=2)
+    logger.info("Saved Xray config to final_sub.txt")
 
-    # 3. Parse for Sing-Box
-    singbox_outbounds: List[Dict[str, Any]] = []
+    # 3. Sing‑Box outbounds
+    sb_outs: List[Dict[str, Any]] = []
     for idx, link in enumerate(all_links, start=1):
         tag = f"proxy-{idx}"
-        ob = parse_vless_to_singbox(link, tag)
+        ob = to_singbox_outbound(link, tag)
         if ob:
-            singbox_outbounds.append(ob)
+            sb_outs.append(ob)
         else:
-            logger.warning(f"Failed to parse Sing-Box config #{idx}")
+            logger.warning(f"Sing‑Box parse failed for #{idx}")
 
-    logger.info(f"Sing-Box outbounds parsed: {len(singbox_outbounds)} / {len(all_links)}")
-
-    # Generate javidbox.json
-    singbox_full = generate_singbox_full(singbox_outbounds)
+    sb_config = build_singbox_config(sb_outs)
     with open("javidbox.json", "w", encoding="utf-8") as f:
-        json.dump(singbox_full, f, ensure_ascii=False, indent=2)
-    logger.info("Saved Sing-Box configuration to javidbox.json")
+        json.dump(sb_config, f, ensure_ascii=False, indent=2)
+    logger.info("✅ Saved Sing‑Box config to javidbox.json")
 
 
 if __name__ == "__main__":
