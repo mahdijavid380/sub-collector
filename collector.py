@@ -1,14 +1,3 @@
-#!/usr/bin/env python3
-"""
-Subscription Manager for VLESS (Xray & Sing-Box)
-- Fetches and decodes base64 subscription from SUB_URLS
-- Validates VLESS links
-- Outputs:
-    1) javidsub       : Raw VLESS links (one per line)
-    2) final_sub.txt  : Full Xray/V2Ray JSON configuration
-    3) javidbox.json  : Native Sing-Box JSON with urltest & selector
-"""
-
 import base64
 import json
 import logging
